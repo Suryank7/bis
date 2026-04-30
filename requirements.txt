@@ -1,0 +1,21 @@
+# BIS Standards Recommendation Engine - Dependencies
+
+# Document Processing
+pypdf>=3.0.0
+unstructured>=0.10.0
+
+# Hybrid Retrieval (Dense + Sparse)
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+rank_bm25>=0.2.2
+
+# Reranking
+FlashRank>=0.2.8
+
+# LLM Integration (Ollama)
+httpx>=0.25.0
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
